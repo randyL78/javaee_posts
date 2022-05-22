@@ -1,5 +1,7 @@
 package com.randylayne.eventhandler;
 
 public interface EventBusService {
-  public boolean sendEvent(Event event);
+  boolean send(Event event);
+
+  void asyncSend(Event event);
 }

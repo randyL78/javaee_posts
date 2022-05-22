@@ -10,13 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71a831c8-96f7-4763-80eb-193b828c1aa1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/randylayne/eventhandler/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/randylayne/eventhandler/EventBusService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/randylayne/eventhandler/NodeEventBusService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/randylayne/posts/PostEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/posts_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/posts_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/randylayne/eventhandler/EventBusService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randylayne/eventhandler/EventBusService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/randylayne/eventhandler/NodeEventBusService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randylayne/eventhandler/NodeEventBusService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/randylayne/posts/PostResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/randylayne/posts/PostResource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +122,7 @@
       <workItem from="1653006226075" duration="1000" />
       <workItem from="1653006406882" duration="6149000" />
       <workItem from="1653094779718" duration="1648000" />
-      <workItem from="1653153269421" duration="5317000" />
+      <workItem from="1653153269421" duration="8068000" />
     </task>
     <servers />
   </component>

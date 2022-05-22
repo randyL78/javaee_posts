@@ -10,8 +10,10 @@ import java.net.URL;
 public class NodeEventBusService implements EventBusService {
   private String URL = "http://localhost:4005/events";
 
+  public NodeEventBusService() {};
+
   @Override
-  public boolean sendEvent(Event event) {
+  public boolean send(Event event) {
     {
       try {
         URL url = new URL(URL);
@@ -39,5 +41,10 @@ public class NodeEventBusService implements EventBusService {
       }
     }
     return false;
+  }
+
+  @Override
+  public void asyncSend(Event event) {
+    Thread thread = new Thread(() -> send(event));
   }
 }

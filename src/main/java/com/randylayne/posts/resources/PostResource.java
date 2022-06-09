@@ -1,7 +1,10 @@
-package com.randylayne.posts;
+package com.randylayne.posts.resources;
 
 import com.randylayne.eventhandler.EventBusService;
 
+import com.randylayne.posts.PostEntity;
+import com.randylayne.posts.PostEvent;
+import com.randylayne.posts.PostRepository;
 import javax.inject.Inject;
 import javax.ws.rs.*;
 import javax.ws.rs.core.Context;

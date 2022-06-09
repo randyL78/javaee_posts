@@ -6,7 +6,7 @@ import java.util.UUID;
 import java.util.stream.Collectors;
 
 public class PostRepository {
-  private static Set<PostEntity> posts = new HashSet<>();
+  private static final Set<PostEntity> posts = new HashSet<>();
 
   public PostRepository() {
   }
@@ -22,9 +22,5 @@ public class PostRepository {
 
   public static Set<PostEntity> getPosts() {
     return posts;
-  }
-
-  public static void setPosts(Set<PostEntity> posts) {
-    PostRepository.posts = posts;
   }
 }
